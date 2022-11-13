@@ -2,9 +2,29 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'line': '0 0 6px 4px'
+      },
+      backgroundImage: {
+        'eth' : "url(../public/eth.png)"
+      },
+      colors: {
+        'button': 'rgba(1,1,1,0)'
+      },
+      fontFamily: {
+        monserat: 'Monserat'
+      }
+    },
+    variants: {
+      extend: {
+        borderBottom: ['last'],
+        borderTop: ['first']
+      }
+    }
   },
   plugins: [],
 }
