@@ -17,10 +17,8 @@ function Countdown({endDate}) {
         }
     },[date])
     return (
-        <p className='flex-1 text-3xl my-14 font-monserat font-lite text-white text-right max-lg:text-center max-lg:text-sm'>{
-            `Time to end presale: ${date.getDay()}d ${date.getHours()}h ${date.getMinutes()}m ${date.getSeconds()}s`
-        }</p>
-    );
+			<p className='flex-1 text-3xl my-14 font-monserat font-extralight text-white text-right max-lg:text-center max-lg:text-sm'>{`Time to end presale: ${date.getDay()}d ${date.getHours()}h ${date.getMinutes()}m ${date.getSeconds()}s`}</p>
+		)
 }
 
 export default Countdown;

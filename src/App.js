@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 import {Web3Button, useConnectModal, useSignMessage} from '@web3modal/react'
 import Navigation from "./components/Navigation/Navigation";
 import ImgElem from "./components/ImgElem/ImgElem";
@@ -24,9 +25,9 @@ function App() {
 
           <Router>
               <Navigation endDate={new Date('2022-11-7')}/>
-              <main className='container flex flex-nowrap mx-auto pt-16  max-lg:pl-0 w-3/5'>
+              <main className='container flex flex-nowrap mx-auto pt-16 pb-16  max-xl:pl-0 w-3/4'>
                   <div className='flex flex-col flex-nowrap space-x-32 w-full max-lg:space-x-0 lg:flex-row'>
-                      <ImgElem img='asd.png' width='600' height='600' />
+                      <ImgElem img='asd.png' width='500' height='500' />
                       <div className='flex flex-col basis-1/2 justify-between'>
                           <Header/>
                           <BuyForm />
