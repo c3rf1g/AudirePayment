@@ -4,7 +4,7 @@ import Countdown from "../Countdown/Countdown";
 function Navigation({endDate}) {
     return (
 			<nav className='width-screen items-center'>
-				<div className='w-3/5 flex mx-auto items-center'>
+				<div className='w-3/4 flex mx-auto items-center'>
 					<h1 className='text-left flex-1 py-11  text-5xl font-bold font-monserat text-white max-lg:pl-0 max-lg:text-4xl'>
 						Audire
 					</h1>
